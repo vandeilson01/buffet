@@ -20,9 +20,15 @@
       z-index: 1;
     }
 
-    section, footer, header, div{
+    section, footer, header{
       z-index: 100;
       position: relative;
+    }
+
+    @media(max-width: 800px){
+      .muito{
+        margin-top: -370px;
+      }
     }
   </style>
 </head>
@@ -181,7 +187,7 @@
       <div class="col-md-2 text-end align-self-center">
         <img style="visibility: hidden;" class="img204" src="../imgs/6.png"/>
       </div>
-      <div class="col-md align-self-end text-center">
+      <div class="col-md align-self-end text-center muito">
         <div class="d-flex">
         <img class="img205" style="width:49%; height: 160px;" src="../imgs/18.jpg"/>  
         <img class="img206" style="width:49%; height: 160px;" src="../imgs/19.jpg"/>  
